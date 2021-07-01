@@ -1,0 +1,24 @@
+body { min-height: 100vh; display: flex; flex-direction: column; background-color: rgb(23, 19, 32);}
+header{ } 
+main{flex-grow: 1;} 
+footer{ }
+
+.gameboy{
+  background-color: rgb(177, 177, 177);
+  border-top-left-radius: 4em;
+  border-top-right-radius: 4em;
+  border-top: 3em outset;
+  border-left: 3em outset;
+  border-right: 3em outset;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 5em;
+}
+
+.screen{
+  background-color: rgb(54, 63, 56);
+  border-radius: 2em;
+  border: 1em inset;
+  padding: 1em;
+  min-height: 70vh;
+}
