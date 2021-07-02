@@ -17,8 +17,27 @@
 <body>
     <main class="container-fluid gameboy text-light">
         <div class="row justify-content-center screen">
+            <!-- Score-Board - drawResults -->
             <h5 id="score-board" class="col-4 offset-8">You: 0 Computer: 0</h5>
+            <div class="col-12">
+                <!-- Battle-Area - drawBattle -->
+                <div class="row text-light" id="battle-area">
 
+                    <div class="col-4"><img src="" alt="" srcset=""></div>
+                    <!-- Result - drawResults -->
+                    <h3 id="result" class="col-4 text-center">who will win?
+                        <div class="col-4"><img src="" alt="" srcset=""></div>
+                </div>
+                </h3>
+                <!-- ADDITIONAL for imgs on buttons - id="buttons" - function drawButtons -->
+                <div id="buttons" class="row justify-content-center">
+                    <div class="col-4 btn btn-danger" onclick="playerChoice('fire')">fire</div>
+                    <div class="col-4 btn btn-success" onclick="playerChoice('grass')">grass</div>
+                    <div class="col-4 btn btn-info" onclick="playerChoice('ice')">ice</div>
+                    <div class="col-4 btn btn-primary" onclick="playerChoice('water')">water</div>
+                    <div class="col-4 btn btn-secondary" onclick="playerChoice('rock')">rock</div>
+                </div>
+            </div>
         </div>
 
     </main>
